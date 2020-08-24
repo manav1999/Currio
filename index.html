@@ -179,9 +179,9 @@
                         <h2 class="text-center">IDEA</h2>
                         <p>
                            The intent behind this was to create a common platform for sex education,
-as we believe in its importance as well as its positive impact. The aim is to
-help young children and adults to bridge the awkwardness and hesitancy
-as well as to navigate young minds through a more sorted path.
+                           as we believe in its importance as well as its positive impact. The aim is to
+                           help young children and adults to bridge the awkwardness and hesitancy
+                           as well as to navigate young minds through a more sorted path.
                         </p>
                             
                                 
@@ -190,9 +190,8 @@ as well as to navigate young minds through a more sorted path.
                         <h2 class="text-center">RESEARCH</h2>
                         <p>
                             This one’s endless—innumerable hours of web searching, case studies,
-plethora of ideas and pangs of bursting myths later, there we were-
-working through piles of articles to get the best content possible.
-    
+                            plethora of ideas and pangs of bursting myths later, there we were-
+                            working through piles of articles to get the best content possible.
                         </p>   
                     </div>
     
@@ -200,8 +199,8 @@ working through piles of articles to get the best content possible.
                         <h2 class="text-center">SURVEY</h2>
                         <p>
                             A questionnaire was circulated widely amongst students and teachers to
-gauge their view on various issues regarding sex ed— from importance to
-types to the way of its discourse, it was one hefty task. 
+                            gauge their view on various issues regarding sex ed— from importance to
+                            types to the way of its discourse, it was one hefty task. 
                         </p>
                     </div>
     
@@ -218,17 +217,16 @@ types to the way of its discourse, it was one hefty task.
                         <h2 class="text-center">WEBSITE</h2>
                         <p>
                             The website is the “one all” place, links to our resources, easy surfing,
-guided access and get to know about us.
+                            guided access and get to know about us.
                         </p>
                     </div>
                     <div class="section-content six">
                         <h2 class="text-center">COLLABORATION</h2>
                         <p>
                             Working on the lines of our vision, we would want to collaborate with a
-NGO, or any authentic legitimate agency which will help us further our
-agenda of reaching to larger sections of the country and to support us in
-our endeavour to create an informative quality safe platform for better sex
-ed.
+                            NGO, or any authentic legitimate agency which will help us further our
+                            agenda of reaching to larger sections of the country and to support us in
+                            our endeavour to create an informative quality safe platform for better sex education.
                         </p>
                     </div>
                     <div class="section-content seven">
@@ -250,7 +248,140 @@ ed.
 </body>
 
 <style>
-    
+      body{
+        overflow: hidden;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+    }
+     .navbar{
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 50%;
+    }
+    .navbar-brand{
+        transform: translateX(-10%);
+        color: #FF7F50;
+    }
+    .nav-item{
+        margin-left: 20%;
+        font-weight: 600;
+    }
+    .nav-link{
+        color: black;
+        opacity: 0.3;
+    }
+    .nav-item .active{
+            opacity: 1;
+    }
+     ul li a{
+        color: black;
+        opacity: 0.3;
+    } 
+    ul li a:hover{
+        opacity: 1;
+        color: black;
+    } 
+    ul li{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .main{
+        margin-left: 10%;
+    }
+     .btn-secondary{
+        transform: translate(40%,1300%);
+        border-radius: 10%;
+        position: fixed;
+    }
+     section{
+        scroll-snap-align: start;
+        height: 550px;
+    }
+    .section1 img{
+        margin-top: 4%;
+        width: 100%;
+        height: 470px;         
+    } 
+     hr{
+        width: 100%;
+        transform: translateX(0%);
+        margin-top: 5%;
+        border: 1px solid black;
+    }
+    .section2 img{
+        margin-top: 6%;
+        width: 100%;
+        border: 1px solid black;
+        height: 470px;
+    } 
+     .feature{
+        margin-top: 22%;
+        height: 400px;
+        width: 90%;
+    }
+    .box{
+            position: relative;
+            width: 200px;
+            height: 400px;
+            background: #000;
+            box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+            margin-left: 50%;           
+        }
+        .box .imgbox{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+        .imgbox img{
+            width: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 400px;
+            transition: 0.5s;
+            
+        }
+        .box:hover .imgbox img{
+            opacity: 0;
+        }
+        .box .details{
+            position: absolute;
+            bottom: 20px;
+            left: 10%;
+            width: 80%;
+            height: 60px;
+            background: #fff;
+            transition: 0.5s;
+            overflow: hidden;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .box:hover .details{
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+        .box .details h1{
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+        }
+        .box .details p{
+            margin: 10px 0 0;
+            padding: 0;
+            opacity: 0;
+            line-height: 1.2em;
+            transition: 0.5s;
+            text-align: justify;
+        }
+        .box:hover .details p{
+            opacity: 1;
+            transition-delay: 0.5s;
+
+        }
     .img1{
         width: 100%;
         
@@ -377,141 +508,7 @@ ed.
         #progress-content-section .section-content.active{
             display: block;
         }
-    .feature{
-        margin-top: 22%;
-        height: 400px;
-        width: 90%;
-    }
-    .box{
-            position: relative;
-            width: 200px;
-            height: 400px;
-            background: #000;
-            box-shadow: 0 30px 30px rgba(0,0,0,0.5);
-            margin-left: 50%;           
-        }
-        .box .imgbox{
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-        }
-        .imgbox img{
-            width: 200px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 400px;
-            transition: 0.5s;
-            
-        }
-        .box:hover .imgbox img{
-            opacity: 0;
-        }
-        .box .details{
-            position: absolute;
-            bottom: 20px;
-            left: 10%;
-            width: 80%;
-            height: 60px;
-            background: #fff;
-            transition: 0.5s;
-            overflow: hidden;
-            padding: 15px;
-            box-sizing: border-box;
-        }
-        .box:hover .details{
-            height: 100%;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-        }
-        .box .details h1{
-            margin: 0;
-            padding: 0;
-            font-size: 40px;
-        }
-        .box .details p{
-            margin: 10px 0 0;
-            padding: 0;
-            opacity: 0;
-            line-height: 1.2em;
-            transition: 0.5s;
-            text-align: justify;
-        }
-        .box:hover .details p{
-            opacity: 1;
-            transition-delay: 0.5s;
-
-        }
-    body{
-        overflow: hidden;
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
-    }
-    hr{
-        width: 100%;
-        transform: translateX(0%);
-        margin-top: 5%;
-        border: 1px solid black;
-    }
-    ul li a{
-        color: black;
-        opacity: 0.3;
-    } 
-    ul li a:hover{
-        opacity: 1;
-        color: black;
-    } 
-    ul li{
-        list-style-type: none;
-        text-decoration: none;
-    }
-    .main{
-        margin-left: 10%;
-    }
-    section{
-        scroll-snap-align: start;
-        height: 550px;
-    }
-    .section1 img{
-        margin-top: 4%;
-        width: 100%;
-        height: 470px;         
-    } 
-    .section2 img{
-        margin-top: 6%;
-        width: 100%;
-        border: 1px solid black;
-        height: 470px;
-    } 
-    .btn-secondary{
-        transform: translate(40%,1300%);
-        border-radius: 10%;
-        position: fixed;
-    }
-    .navbar{
-        display: block;
-        position: fixed;
-        height: 100%;
-        width: 50%;
-    }
-    .navbar-brand{
-        transform: translateX(-10%);
-        color: #FF7F50;
-    }
-    .nav-item{
-        margin-left: 20%;
-        font-weight: 600;
-    }
-    .nav-link{
-        color: black;
-        opacity: 0.3;
-    }
-    .nav-item .active{
-            opacity: 1;
-    }
-
+   
 </style>
 <script>
      $(document).ready(function(){
